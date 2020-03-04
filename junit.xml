@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="DESKTOP-CH388E2" name="pytest" skipped="0" tests="4" time="0.088" timestamp="2019-12-27T00:04:36.493922"><testcase classname="test_div" file="test_div.py" line="12" name="test_div_int" time="0.001"></testcase><testcase classname="test_div" file="test_div.py" line="17" name="test_div_float" time="0.000"></testcase><testcase classname="test_div" file="test_div.py" line="21" name="test_div_expection" time="0.001"><failure message="TypeError: unsupported operand type(s) for /: &apos;str&apos; and &apos;int&apos;">def test_div_expection():
+&gt;       assert div(&apos;a&apos;,10)
+
+test_div.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+a = &apos;a&apos;, b = 10
+
+    def div(a,b):
+&gt;       return a/b
+E       TypeError: unsupported operand type(s) for /: &apos;str&apos; and &apos;int&apos;
+
+test_div.py:11: TypeError</failure></testcase><testcase classname="test_div" file="test_div.py" line="24" name="test_div_zero" time="0.001"></testcase></testsuite></testsuites>
